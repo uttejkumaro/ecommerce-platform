@@ -1,34 +1,55 @@
-<h1 align="center">E-Commerce Store 🛒</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[Video Tutorial on Youtube](https://youtu.be/sX57TLIPNx8)
+---
 
-About This Course:
+```markdown
+<h1 align="center">🛒 MeshCommerce - Full-Stack E-Commerce Store</h1>
 
--   🚀 Project Setup
--   🗄️ MongoDB & Redis Integration
--   💳 Stripe Payment Setup
--   🔐 Robust Authentication System
--   🔑 JWT with Refresh/Access Tokens
--   📝 User Signup & Login
--   🛒 E-Commerce Core
--   📦 Product & Category Management
--   🛍️ Shopping Cart Functionality
--   💰 Checkout with Stripe
--   🏷️ Coupon Code System
--   👑 Admin Dashboard
--   📊 Sales Analytics
--   🎨 Design with Tailwind
--   🛒 Cart & Checkout Process
--   🔒 Security
--   🛡️ Data Protection
--   🚀Caching with Redis
--   ⌛ And a lot more...
+<p align="center">
+  A fast, secure, and modern e-commerce web application built using Node.js, MongoDB, Redis, Stripe, Cloudinary, and Tailwind CSS.
+</p>
 
-### Setup .env file
+---
 
-```bash
+## 🚀 Features Covered in This Project
+
+- 🛠️ **Full Project Setup**
+- 🗄️ **MongoDB** for storing products, users, coupons, and orders
+- ⚡ **Redis (Upstash)** for caching featured products and storing refresh tokens
+- 💳 **Stripe Integration** for secure payment processing
+- 🔐 **JWT-Based Authentication** with Access & Refresh Tokens
+- 👤 User Signup, Login, and Logout functionalities
+- 🛍️ Add to Cart, Remove, and Update Quantity
+- 📦 Product and Category Management
+- 🏷️ Coupon System to apply discounts
+- 👑 Admin Dashboard with analytics and controls
+- 📊 Daily Sales & Revenue Analytics
+- 🎨 Responsive UI with Tailwind CSS
+- 🔒 Secure Routes with Role-Based Protection
+- 🧠 Smart Caching using Redis for better performance
+- ⚙️ RESTful APIs using Express
+- 🔍 Lean Mongo Queries for faster response
+
+---
+
+## 🧪 Tech Stack
+
+- **Backend:** Node.js, Express
+- **Database:** MongoDB (with Mongoose)
+- **Caching & Token Storage:** Redis (via Upstash)
+- **Authentication:** JWT (Access & Refresh Tokens)
+- **Payments:** Stripe
+- **Image Storage:** Cloudinary
+- **Frontend Requests:** Axios
+- **Styling:** Tailwind CSS
+
+---
+
+## 🔧 Environment Variables
+
+Create a `.env` file in your root directory and configure it as shown:
+
+```env
 PORT=5000
 MONGO_URI=your_mongo_uri
 
@@ -46,14 +67,18 @@ CLIENT_URL=http://localhost:5173
 NODE_ENV=development
 ```
 
-### Run this app locally
+---
 
-```shell
+## 🛠️ Getting Started Locally
+
+### 1. Build the app
+```bash
 npm run build
 ```
 
-### Start the app
-
-```shell
-npm run start
+### 2. Start the development server
+```bash
+npm start
 ```
+
+---
