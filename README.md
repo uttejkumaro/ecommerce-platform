@@ -1,15 +1,6 @@
 
 
----
-
-```markdown
-<h1 align="center">🛒 MeshCommerce - Full-Stack E-Commerce Store</h1>
-
-<p align="center">
-  A fast, secure, and modern e-commerce web application built using Node.js, MongoDB, Redis, Stripe, Cloudinary, and Tailwind CSS.
-</p>
-
----
+# ecommerce-platform
 
 ## 🚀 Features Covered in This Project
 
